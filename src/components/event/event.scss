@@ -1,0 +1,41 @@
+.event{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+    font-size: 14px;
+
+    .row{
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+
+        .venue {
+            align-self: flex-start;
+            display: inline-flex;
+        }
+        .venue_location {
+            align-self: flex-end;
+            display: inline-flex;
+
+            .icon {
+                padding-right: 5px;
+                height: 15px;
+            }
+        }
+        &.venue_date {
+            font-style: italic;
+            font-size: 12px;
+            color: #777;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            justify-content: flex-start;
+        }
+    }
+
+}

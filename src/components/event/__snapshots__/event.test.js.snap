@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EventDetails
+    data={
+        Object {
+            "datetime": "2018-10-10 20:11:00",
+            "venue": Object {
+              "city": "Berlin",
+              "country": "Germany",
+              "name": "My testing audition",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <section
+          className="row"
+>
+          <div
+                    className="venue"
+          >
+                    My testing audition
+          </div>
+          <div
+                    className="venue_location"
+          >
+                    <img
+                              alt="location"
+                              className="icon"
+                              src="location_icon.png"
+                    />
+                    Berlin
+                    , 
+                    Germany
+          </div>
+</section>,
+        <section
+          className="row venue_date"
+>
+          Wed Oct 10 2018, 8:11 PM
+</section>,
+      ],
+      "className": "event",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="venue"
+>
+              My testing audition
+</div>,
+            <div
+              className="venue_location"
+>
+              <img
+                            alt="location"
+                            className="icon"
+                            src="location_icon.png"
+              />
+              Berlin
+              , 
+              Germany
+</div>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "My testing audition",
+              "className": "venue",
+            },
+            "ref": null,
+            "rendered": "My testing audition",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="location"
+                  className="icon"
+                  src="location_icon.png"
+/>,
+                "Berlin",
+                ", ",
+                "Germany",
+              ],
+              "className": "venue_location",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "location",
+                  "className": "icon",
+                  "src": "location_icon.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "Berlin",
+              ", ",
+              "Germany",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Wed Oct 10 2018, 8:11 PM",
+          "className": "row venue_date",
+        },
+        "ref": null,
+        "rendered": "Wed Oct 10 2018, 8:11 PM",
+        "type": "section",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section
+            className="row"
+>
+            <div
+                        className="venue"
+            >
+                        My testing audition
+            </div>
+            <div
+                        className="venue_location"
+            >
+                        <img
+                                    alt="location"
+                                    className="icon"
+                                    src="location_icon.png"
+                        />
+                        Berlin
+                        , 
+                        Germany
+            </div>
+</section>,
+          <section
+            className="row venue_date"
+>
+            Wed Oct 10 2018, 8:11 PM
+</section>,
+        ],
+        "className": "event",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="venue"
+>
+                My testing audition
+</div>,
+              <div
+                className="venue_location"
+>
+                <img
+                                alt="location"
+                                className="icon"
+                                src="location_icon.png"
+                />
+                Berlin
+                , 
+                Germany
+</div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "My testing audition",
+                "className": "venue",
+              },
+              "ref": null,
+              "rendered": "My testing audition",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="location"
+                    className="icon"
+                    src="location_icon.png"
+/>,
+                  "Berlin",
+                  ", ",
+                  "Germany",
+                ],
+                "className": "venue_location",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "location",
+                    "className": "icon",
+                    "src": "location_icon.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "Berlin",
+                ", ",
+                "Germany",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Wed Oct 10 2018, 8:11 PM",
+            "className": "row venue_date",
+          },
+          "ref": null,
+          "rendered": "Wed Oct 10 2018, 8:11 PM",
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

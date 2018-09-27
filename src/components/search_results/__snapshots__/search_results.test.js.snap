@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Connect(SearchResults)
+    artist={
+        Object {
+            "events": Array [
+              Object {
+                "artist_id": "139493",
+                "datetime": "2018-09-07T21:00:00",
+                "id": "1011359000",
+                "venue": Object {
+                  "city": "Toronto",
+                  "country": "Canada",
+                  "latitude": "43.643466",
+                  "longitude": "-79.379142",
+                  "name": "Air Canada Centre",
+                },
+              },
+            ],
+            "facebook_page_url": "https://www.facebook.com/maroon5",
+            "id": "510",
+            "image_url": "https://s3.amazonaws.com/bit-photos/large/8479721.jpeg",
+            "name": "Maroon 5",
+            "thumb_url": "https://s3.amazonaws.com/bit-photos/thumb/8479721.jpeg",
+          }
+    }
+    store={
+        Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "artist": Object {
+        "events": Array [
+          Object {
+            "artist_id": "139493",
+            "datetime": "2018-09-07T21:00:00",
+            "id": "1011359000",
+            "venue": Object {
+              "city": "Toronto",
+              "country": "Canada",
+              "latitude": "43.643466",
+              "longitude": "-79.379142",
+              "name": "Air Canada Centre",
+            },
+          },
+        ],
+        "facebook_page_url": "https://www.facebook.com/maroon5",
+        "id": "510",
+        "image_url": "https://s3.amazonaws.com/bit-photos/large/8479721.jpeg",
+        "name": "Maroon 5",
+        "thumb_url": "https://s3.amazonaws.com/bit-photos/thumb/8479721.jpeg",
+      },
+      "dispatch": [Function],
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "storeSubscription": Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": [Function],
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "artist": Object {
+          "events": Array [
+            Object {
+              "artist_id": "139493",
+              "datetime": "2018-09-07T21:00:00",
+              "id": "1011359000",
+              "venue": Object {
+                "city": "Toronto",
+                "country": "Canada",
+                "latitude": "43.643466",
+                "longitude": "-79.379142",
+                "name": "Air Canada Centre",
+              },
+            },
+          ],
+          "facebook_page_url": "https://www.facebook.com/maroon5",
+          "id": "510",
+          "image_url": "https://s3.amazonaws.com/bit-photos/large/8479721.jpeg",
+          "name": "Maroon 5",
+          "thumb_url": "https://s3.amazonaws.com/bit-photos/thumb/8479721.jpeg",
+        },
+        "dispatch": [Function],
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "storeSubscription": Subscription {
+          "listeners": Object {
+            "clear": [Function],
+            "get": [Function],
+            "notify": [Function],
+            "subscribe": [Function],
+          },
+          "onStateChange": [Function],
+          "parentSub": undefined,
+          "store": Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          },
+          "unsubscribe": [Function],
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
