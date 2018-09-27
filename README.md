@@ -1,5 +1,5 @@
 # BandWagon
-Single page application with debounced search implemented using Redux Saga.
+Single page application with debounced search implemented using Redux Saga and CSS Modules.
 
 Find it live [here](https://bandwag0n.herokuapp.com)
 
